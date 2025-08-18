@@ -67,21 +67,20 @@ const Contact = () => {
             <Card className="wellness-card">
               <CardHeader>
                 <CardTitle className="text-2xl font-playfair text-foreground">
-                  Часы работы
+                  Режим работы
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-3">
-                <div className="flex justify-between">
-                  <span className="text-foreground font-medium">Понедельник - Пятница</span>
-                  <span className="text-muted-foreground">9:00 - 20:00</span>
+                <div className="text-center">
+                  <span className="text-2xl font-semibold text-primary">24/7</span>
+                  <p className="text-muted-foreground mt-2">Мы работаем круглосуточно для вашего удобства</p>
                 </div>
-                <div className="flex justify-between">
-                  <span className="text-foreground font-medium">Суббота</span>
-                  <span className="text-muted-foreground">8:00 - 18:00</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-foreground font-medium">Воскресенье</span>
-                  <span className="text-muted-foreground">10:00 - 17:00</span>
+                <div className="pt-4 border-t border-border">
+                  <h4 className="font-semibold text-foreground mb-2">Выездные массажисты</h4>
+                  <p className="text-muted-foreground text-sm">
+                    Популярная услуга! Наши специалисты приедут к вам домой или в офис. 
+                    Профессиональное оборудование и все необходимое мы привозим с собой.
+                  </p>
                 </div>
               </CardContent>
             </Card>
