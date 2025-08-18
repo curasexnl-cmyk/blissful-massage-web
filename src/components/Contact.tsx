@@ -7,11 +7,11 @@ const Contact = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-playfair font-bold text-foreground mb-6">
-            Begin Your Wellness Journey
+            Начните ваше путешествие к здоровью
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Ready to experience the transformative power of therapeutic massage? 
-            We're here to help you find your path to relaxation and healing.
+            Готовы ощутить преобразующую силу терапевтического массажа? 
+            Мы поможем вам найти путь к расслаблению и исцелению.
           </p>
         </div>
 
@@ -21,7 +21,7 @@ const Contact = () => {
             <Card className="wellness-card">
               <CardHeader>
                 <CardTitle className="text-2xl font-playfair text-foreground">
-                  Contact Information
+                  Контактная информация
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -32,7 +32,7 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-foreground">Phone</h3>
+                    <h3 className="font-semibold text-foreground">Телефон</h3>
                     <p className="text-muted-foreground">(555) 123-4567</p>
                   </div>
                 </div>
@@ -46,7 +46,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground">Email</h3>
-                    <p className="text-muted-foreground">info@serenityspa.com</p>
+                    <p className="text-muted-foreground">info@layandrelax.com</p>
                   </div>
                 </div>
 
@@ -57,8 +57,8 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-foreground">Location</h3>
-                    <p className="text-muted-foreground">123 Wellness Avenue<br />Tranquil Valley, CA 90210</p>
+                    <h3 className="font-semibold text-foreground">Адрес</h3>
+                    <p className="text-muted-foreground">ул. Релакса, 123<br />Москва, Россия</p>
                   </div>
                 </div>
               </CardContent>
@@ -67,21 +67,21 @@ const Contact = () => {
             <Card className="wellness-card">
               <CardHeader>
                 <CardTitle className="text-2xl font-playfair text-foreground">
-                  Hours of Operation
+                  Часы работы
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-3">
                 <div className="flex justify-between">
-                  <span className="text-foreground font-medium">Monday - Friday</span>
-                  <span className="text-muted-foreground">9:00 AM - 8:00 PM</span>
+                  <span className="text-foreground font-medium">Понедельник - Пятница</span>
+                  <span className="text-muted-foreground">9:00 - 20:00</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-foreground font-medium">Saturday</span>
-                  <span className="text-muted-foreground">8:00 AM - 6:00 PM</span>
+                  <span className="text-foreground font-medium">Суббота</span>
+                  <span className="text-muted-foreground">8:00 - 18:00</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-foreground font-medium">Sunday</span>
-                  <span className="text-muted-foreground">10:00 AM - 5:00 PM</span>
+                  <span className="text-foreground font-medium">Воскресенье</span>
+                  <span className="text-muted-foreground">10:00 - 17:00</span>
                 </div>
               </CardContent>
             </Card>
@@ -92,43 +92,43 @@ const Contact = () => {
             <Card className="wellness-card">
               <CardHeader>
                 <CardTitle className="text-2xl font-playfair text-foreground">
-                  Book Your Appointment
+                  Записаться на прием
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
                 <p className="text-muted-foreground leading-relaxed">
-                  Ready to experience the healing touch of our expert therapists? 
-                  Book your appointment today and take the first step toward renewed 
-                  vitality and inner peace.
+                  Готовы ощутить целительное прикосновение наших опытных терапевтов? 
+                  Запишитесь сегодня и сделайте первый шаг к обновленной 
+                  жизненной силе и внутреннему покою.
                 </p>
 
                 <div className="space-y-4">
                   <Button variant="wellness" size="lg" className="w-full">
-                    Book Online Now
+                    Записаться онлайн
                   </Button>
                   <Button variant="wellness-secondary" size="lg" className="w-full">
-                    Call to Schedule
+                    Позвонить для записи
                   </Button>
                 </div>
 
                 <div className="pt-4 border-t border-border">
-                  <h4 className="font-semibold text-foreground mb-3">What to Expect:</h4>
+                  <h4 className="font-semibold text-foreground mb-3">Что вас ждет:</h4>
                   <ul className="space-y-2 text-muted-foreground">
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
-                      Consultation to discuss your needs
+                      Консультация для обсуждения ваших потребностей
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
-                      Personalized treatment plan
+                      Персональный план лечения
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
-                      Relaxing, private treatment room
+                      Расслабляющий, приватный кабинет
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
-                      Post-treatment wellness recommendations
+                      Рекомендации по здоровью после процедуры
                     </li>
                   </ul>
                 </div>

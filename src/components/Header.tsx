@@ -6,27 +6,27 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <h1 className="text-2xl font-playfair font-semibold text-primary">
-            Serenity Spa
+            Lay & Relax
           </h1>
         </div>
         
         <nav className="hidden md:flex items-center space-x-8">
           <a href="#home" className="text-foreground hover:text-primary transition-colors">
-            Home
+            Главная
           </a>
           <a href="#services" className="text-foreground hover:text-primary transition-colors">
-            Services
+            Услуги
           </a>
           <a href="#about" className="text-foreground hover:text-primary transition-colors">
-            About
+            О нас
           </a>
           <a href="#contact" className="text-foreground hover:text-primary transition-colors">
-            Contact
+            Контакты
           </a>
         </nav>
 
         <Button variant="wellness" size="lg">
-          Book Now
+          Записаться
         </Button>
       </div>
     </header>

@@ -7,35 +7,35 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h2 className="text-4xl md:text-5xl font-playfair font-bold text-foreground">
-              Your Journey to 
-              <span className="text-primary block">Wellness Begins Here</span>
+              Ваше путешествие к 
+              <span className="text-primary block">здоровью начинается здесь</span>
             </h2>
             
             <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
               <p>
-                At Serenity Spa, we believe that true wellness comes from the harmony of 
-                body, mind, and spirit. Our team of licensed massage therapists brings 
-                over 15 years of combined experience in therapeutic healing.
+                В Lay & Relax мы верим, что истинное здоровье приходит от гармонии 
+                тела, разума и духа. Наша команда лицензированных массажистов обладает 
+                более чем 15-летним опытом в терапевтическом лечении.
               </p>
               
               <p>
-                Each treatment is personalized to your unique needs, whether you're seeking 
-                relief from chronic pain, stress reduction, or simply a moment of tranquil 
-                escape from daily life.
+                Каждая процедура подбирается индивидуально под ваши потребности, будь то 
+                облегчение хронической боли, снятие стресса или просто момент спокойного 
+                отдыха от повседневной жизни.
               </p>
               
               <p>
-                We use only the finest organic oils and products, combined with techniques 
-                rooted in ancient healing traditions and modern therapeutic science.
+                Мы используем только лучшие органические масла и продукты, сочетая техники, 
+                основанные на древних традициях исцеления и современной терапевтической науке.
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Button variant="wellness" size="lg">
-                Meet Our Team
+                Познакомиться с командой
               </Button>
               <Button variant="wellness-secondary" size="lg">
-                Read Our Story
+                Наша история
               </Button>
             </div>
           </div>
@@ -43,39 +43,39 @@ const About = () => {
           <div className="space-y-6">
             <div className="wellness-card">
               <h3 className="text-2xl font-playfair font-semibold text-foreground mb-4">
-                Why Choose Serenity Spa?
+                Почему выбирают Lay & Relax?
               </h3>
               
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
-                    <h4 className="font-semibold text-foreground">Licensed Professionals</h4>
-                    <p className="text-muted-foreground">Certified massage therapists with extensive training</p>
+                    <h4 className="font-semibold text-foreground">Лицензированные специалисты</h4>
+                    <p className="text-muted-foreground">Сертифицированные массажисты с обширной подготовкой</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start space-x-3">
                   <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
-                    <h4 className="font-semibold text-foreground">Personalized Care</h4>
-                    <p className="text-muted-foreground">Every session tailored to your specific needs</p>
+                    <h4 className="font-semibold text-foreground">Персональный подход</h4>
+                    <p className="text-muted-foreground">Каждый сеанс адаптирован под ваши потребности</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start space-x-3">
                   <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
-                    <h4 className="font-semibold text-foreground">Serene Environment</h4>
-                    <p className="text-muted-foreground">Tranquil space designed for deep relaxation</p>
+                    <h4 className="font-semibold text-foreground">Спокойная атмосфера</h4>
+                    <p className="text-muted-foreground">Умиротворяющее пространство для глубокого расслабления</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start space-x-3">
                   <div className="w-3 h-3 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
-                    <h4 className="font-semibold text-foreground">Premium Products</h4>
-                    <p className="text-muted-foreground">Organic oils and therapeutic-grade materials</p>
+                    <h4 className="font-semibold text-foreground">Премиум продукты</h4>
+                    <p className="text-muted-foreground">Органические масла и материалы терапевтического класса</p>
                   </div>
                 </div>
               </div>

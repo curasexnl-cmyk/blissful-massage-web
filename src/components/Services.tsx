@@ -2,46 +2,34 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const services = [
   {
-    title: "Swedish Massage",
-    duration: "60-90 minutes",
-    price: "From $120",
-    description: "Classic relaxation massage using long, flowing strokes to ease tension and promote deep relaxation.",
-    benefits: ["Stress relief", "Improved circulation", "Muscle relaxation"]
+    title: "Классический массаж",
+    duration: "60-90 минут",
+    description: "Традиционный расслабляющий массаж с использованием длинных, плавных движений для снятия напряжения и глубокой релаксации.",
+    benefits: ["Снятие стресса", "Улучшение кровообращения", "Расслабление мышц"]
   },
   {
-    title: "Deep Tissue Massage",
-    duration: "60-90 minutes", 
-    price: "From $140",
-    description: "Intensive therapy targeting deeper muscle layers to release chronic tension and knots.",
-    benefits: ["Pain relief", "Increased mobility", "Injury recovery"]
+    title: "Расслабляющий массаж",
+    duration: "60-75 минут", 
+    description: "Мягкий терапевтический массаж, направленный на полное расслабление тела и разума.",
+    benefits: ["Глубокое расслабление", "Улучшение сна", "Снятие усталости"]
   },
   {
-    title: "Hot Stone Therapy",
-    duration: "75-90 minutes",
-    price: "From $160",
-    description: "Heated volcanic stones placed on key points to melt away stress and restore energy flow.",
-    benefits: ["Deep relaxation", "Energy balance", "Improved sleep"]
+    title: "Антицеллюлитный массаж",
+    duration: "60-90 минут",
+    description: "Специализированный массаж для улучшения состояния кожи и борьбы с целлюлитом.",
+    benefits: ["Улучшение состояния кожи", "Повышение тонуса", "Коррекция фигуры"]
   },
   {
-    title: "Aromatherapy Massage", 
-    duration: "60-75 minutes",
-    price: "From $135",
-    description: "Therapeutic massage enhanced with essential oils to harmonize body, mind, and spirit.",
-    benefits: ["Emotional balance", "Enhanced mood", "Holistic healing"]
+    title: "Спортивный массаж", 
+    duration: "45-75 минут",
+    description: "Интенсивный массаж для спортсменов и активных людей, направленный на восстановление после нагрузок.",
+    benefits: ["Восстановление мышц", "Повышение выносливости", "Профилактика травм"]
   },
   {
-    title: "Prenatal Massage",
-    duration: "60 minutes",
-    price: "From $130",
-    description: "Gentle, specialized massage designed for expectant mothers to ease pregnancy discomfort.",
-    benefits: ["Reduced swelling", "Better sleep", "Stress relief"]
-  },
-  {
-    title: "Couples Massage",
-    duration: "60-90 minutes",
-    price: "From $240",
-    description: "Share a relaxing experience in our couples suite with side-by-side massage tables.",
-    benefits: ["Shared relaxation", "Quality time", "Stress relief"]
+    title: "Лимфодренажный массаж",
+    duration: "60-90 минут",
+    description: "Специальная техника массажа для активизации лимфотока и выведения токсинов из организма.",
+    benefits: ["Детоксикация", "Уменьшение отечности", "Укрепление иммунитета"]
   }
 ];
 
@@ -51,11 +39,11 @@ const Services = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-playfair font-bold text-foreground mb-6">
-            Our Signature Services
+            Наши услуги
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Each treatment is thoughtfully designed to restore balance and promote healing, 
-            using time-honored techniques and premium natural products.
+            Каждая процедура тщательно разработана для восстановления баланса и оздоровления, 
+            с использованием проверенных временем техник и премиальных натуральных продуктов.
           </p>
         </div>
 
@@ -63,14 +51,9 @@ const Services = () => {
           {services.map((service, index) => (
             <Card key={index} className="wellness-card group cursor-pointer">
               <CardHeader>
-                <div className="flex justify-between items-start mb-3">
-                  <CardTitle className="text-2xl font-playfair text-foreground group-hover:text-primary transition-colors">
-                    {service.title}
-                  </CardTitle>
-                  <span className="text-primary font-semibold text-lg">
-                    {service.price}
-                  </span>
-                </div>
+                <CardTitle className="text-2xl font-playfair text-foreground group-hover:text-primary transition-colors mb-3">
+                  {service.title}
+                </CardTitle>
                 <CardDescription className="text-wellness-stone text-base">
                   {service.duration}
                 </CardDescription>
@@ -82,7 +65,7 @@ const Services = () => {
                 </p>
                 
                 <div>
-                  <h4 className="font-semibold text-foreground mb-2">Benefits:</h4>
+                  <h4 className="font-semibold text-foreground mb-2">Преимущества:</h4>
                   <ul className="space-y-1">
                     {service.benefits.map((benefit, idx) => (
                       <li key={idx} className="text-muted-foreground flex items-center">

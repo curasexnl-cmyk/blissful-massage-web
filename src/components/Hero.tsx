@@ -17,21 +17,21 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-playfair font-bold mb-6 leading-tight">
-          Restore Your
-          <span className="block text-wellness-sage-light">Inner Peace</span>
+          Восстановите Ваш
+          <span className="block text-wellness-sage-light">Внутренний Покой</span>
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-2xl mx-auto leading-relaxed">
-          Experience the ultimate relaxation with our therapeutic massage treatments 
-          designed to rejuvenate your body and mind.
+          Окунитесь в атмосферу абсолютного расслабления с нашими терапевтическими массажными процедурами,
+          созданными для омоложения вашего тела и разума.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button variant="wellness" size="lg" className="text-lg px-10 py-4">
-            Book Your Session
+            Записаться на сеанс
           </Button>
           <Button variant="wellness-secondary" size="lg" className="text-lg px-10 py-4 bg-white/10 border-white/30 text-white hover:bg-white/20">
-            View Services
+            Наши услуги
           </Button>
         </div>
       </div>
